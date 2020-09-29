@@ -252,7 +252,8 @@ mysql> history
     ->
 
 
-
+mysql> create table associates ( aid varchar(10) not null, sid varchar(10), contact varchar(50), constraint ids_unique unique (aid) );
+Query OK, 0 rows affected (0.02 sec)
 
 
 
